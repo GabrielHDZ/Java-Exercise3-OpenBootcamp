@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Cachorro",
+            "request": "launch",
+            "mainClass": "Cachorro",
+            "projectName": "JavaFirst_61c9d45e"
+        },
+        {
+            "type": "java",
+            "name": "Launch menu",
+            "request": "launch",
+            "mainClass": "menu",
+            "projectName": "JavaFirst_61c9d45e"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
