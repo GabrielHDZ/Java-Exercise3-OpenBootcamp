@@ -7,7 +7,8 @@ public class Perro{
         perroAge=age;
     }
     //publics se llaman creando instancias de la class
-    public String correr(){
+    //public--private--protected
+    final String correr(){
         return "hi, el ".concat(NAME).concat(" corre ").concat(perroClase);
     }
     //statics se llaman sin la necesidad de instancia de class
