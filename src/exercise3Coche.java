@@ -3,16 +3,13 @@ public class exercise3Coche {
         Auto coche = new Auto();
         coche.incPuertas();
         coche.incPuertas();
-        System.out.println(coche.numPuertas);
-        
+        System.out.println(coche.numPuertas);   
     }
-
-    
 }
 
 class Auto {
     int numPuertas = 4;
-
+    
     public void incPuertas() {
         this.numPuertas++;
     }
