@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch exercise3",
+            "request": "launch",
+            "mainClass": "exercise3",
+            "projectName": "JavaFirst_61c9d45e"
+        },
+        {
+            "type": "java",
             "name": "Launch Cachorro",
             "request": "launch",
             "mainClass": "Cachorro",

@@ -1,5 +1,14 @@
 public class App {
     int pro1=19;
+    //se utiiza cuando se necesita trabajar con los datos que devuelva la funcion
+    public static int sumaReturn(int num1, int num2) {
+        return num1 + num2;
+    }
+    //se utiiliza cuando la funcion realiza todo el trabajo y no se utiliza el resultado en otra funcion
+    public static void sumaPrint(int num1, int num2) {
+        //println tambien es otra funcion
+        System.out.println(num1+num2);
+    }
     static int myMethod(int x) {
         return 5+x;
     }
@@ -113,6 +122,11 @@ public class App {
         //System.out.println(myMethod(5));
         int resu=myRecursion(4);
         System.out.println(resu);
+        System.out.println("impresion que se retorna");
+        int res = sumaReturn(12, 67);
+        System.out.println(res);
+        System.out.println("impresion desde funcion");
+        sumaPrint(12,67);
 
     }
 
