@@ -1,5 +1,3 @@
-import java.io.PipedInputStream;
-
 public class exercise3 {
     public static void main(String[] args) {
         //llamada de la funcion y asignarle valores
